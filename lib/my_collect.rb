@@ -3,7 +3,7 @@ my_collect(array) do |name|
   name.split(" ").first
 end
 
-collection = ['ruby', 'javascript', 'python', 'objective-c']
+collection = ["Tim" , "Tom", "Sophie", "Antoin"]
 my_collect(students) do |student|
   student.split(" ").first
 end
