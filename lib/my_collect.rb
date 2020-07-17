@@ -5,5 +5,5 @@ end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
 my_collect(students) do |student|
-  student.split(" ")
+  student.split(" ").first
 end
